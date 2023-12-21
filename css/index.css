@@ -1,0 +1,391 @@
+@charset "UTF-8";
+
+body {
+    margin: 0 auto;
+    background-color: #dfd3c3
+}
+
+#wrap {
+    position: relative;
+    width: 960px;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 10px 20px;}
+
+
+/* Header Section */
+header {
+    display: block;
+    position: absolute;
+    left: 110px;
+    width: 850px;
+    height: 200px;
+    background-image: url(./../resource/images/nigth_codework.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    filter: opacity(0.7);
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0,0.4);
+    z-index: -100;
+}
+h1{color: #fff; font-size: 36px; filter: opacity(1);}
+h2, h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Header - sideNavigator */
+header>.sideNav {
+    position: relative;
+    left: -10%;
+    top: 20px;
+    width: 80px;
+    height: 970px;
+    z-index: 800;
+    /* background-color: skyblue; */
+    /* border: 1px solid #000; */
+}
+
+header>.sideNav>.gnb {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    position: relative;
+    left: -15%;
+    top: 0%;
+    margin: 50% auto;
+    width: 90%;
+    height: 40%;
+    background-position: -12px 10px;
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+}
+
+header>.sideNav>.gnb>.btn {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    border-radius: 30%;
+    background-color: #fff;
+    box-shadow: 3px 3px 4px inset skyblue,
+        -3px -3px 4px inset skyblue;
+    transition: all 1s;
+}
+
+header>.sideNav>.gnb>.btn > a {
+    height: 60px;
+    line-height: 60px;
+    padding: 20px 30px;
+    content: " ";
+}
+
+header>.sideNav>.gnb>.btn:nth-child(1) {
+    margin-top: -380px;
+    background-image: url(./../resource/images/up_down_btn.png);
+    background-position: center 5px;
+    background-size: 160%;
+    background-repeat: no-repeat;
+}
+
+header>.sideNav>.gnb>.btn:nth-child(2) {
+    margin-top: -240px;
+    background-image: url(./../resource/images/home_btn.png);
+    background-position: center 5px;
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+
+header>.sideNav>.gnb>.btn:nth-child(3) {
+    margin-top:  -100px;
+    background-image: url(./../resource/images/up_down_btn.png);
+    background-position: center -45px;
+    background-size: 160%;
+    background-repeat: no-repeat;
+}
+
+/* header > .sideNav  > .gnb > li >.btn{
+    margin: 20px auto;
+    width: 60px;
+    height: 60px;
+    
+    border-radius: 35%;
+}
+
+header > .sideNav  > .gnb  > li > a{
+    width: 60px;
+    height: 60px;
+    margin: 20px auto;
+    padding:20px;
+    
+    background: rgb(89, 226, 10);
+    content:'';
+} */
+
+
+header >.sideNav >.gnb > #toTop:hover {
+    background-size: 190%;
+}
+
+header >.sideNav >.gnb > #toBot:hover {
+    background-size: 190%;
+}
+
+/* transform: scale(1.2);} */
+
+
+/* main */
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    position: absolute;
+    left: 110px;
+    top: 22%;
+    width: 850px;
+    height: max-content;
+    background-color: rgba(231, 112, 112 , 0.4);
+    border-radius: 15px;
+}
+
+main>section>.mid .lower {
+    border-radius: 15px;
+}
+
+main > section {
+    margin: 5px 10px;
+    width: 390px;
+    /* background-color: #fff; */
+}
+
+/* section1 */
+main > .upper { 
+    width: 790px;
+    height: 200px;
+    margin-top: 10px;
+    /* background-image: url(./../resource/images/notepad2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+
+main > .mid {
+    height: 300px;
+    background-image: url(./../resource/images/notepad1.png);
+    background-position: center center;
+    background-size: 105%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+main > .mid > h2 {
+    text-indent: 36px;
+    padding-top: 24px;
+}
+
+/* section3 */
+main > .lower {
+    width: 810px;
+    height: 200px;
+    line-height: 30px;
+    padding-top: 16px;
+    background-color: rgba(206, 187, 224, 0.75);
+    border-radius: 15px;
+    text-align: center;
+}
+
+main>.lower>.stackBox {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+    margin: 20px auto 0;
+    background-color: pink;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+main>.lower>.stackBox>.outter {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    background-color: darkgray;
+    border-radius: 10px;
+    z-index: 400;
+    transition: all 0.5s
+}
+
+main>.lower>.stackBox>.outter>.inner {
+    width: 76px;
+    height: 76px;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 800;
+}
+
+main>.lower>.stackBox>.outter:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 7px rgba(40, 40, 40, 0.7),
+        -4px -4px 7px rgba(40, 40, 40, 0.7);
+}
+
+main>.lower>.stackBox>.outter:hover::after {
+    z-index: 800;
+    transform: rotateX(120deg);
+}
+
+main>.lower>.stackBox>.outter:nth-child(1)>.inner {
+    background-image: url(./../resource/images/Java_Logo.png);
+    background-size: 90%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+main>.lower>.stackBox>.outter:nth-child(2)>.inner {
+    background-image: url(./../resource/images/HTML.png);
+    background-size: 90%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+main>.lower>.stackBox>.outter:nth-child(3)>.inner {
+    background-image: url(./../resource/images/CSS3_logo.png);
+    background-size: 90%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+main>.lower>.stackBox>.outter:nth-child(4)>.inner {
+    background-image: url(./../resource/images/javascript.png);
+    background-size: 95%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+main>.lower>.stackBox>.outter:nth-child(5)>.inner {
+    background-image: url(./../resource/images/Spring_Boot.png);
+    background-size: 85%;
+    background-position: center 5px;
+    background-repeat: no-repeat;
+}
+
+main>.lower>.stackBox>.outter:nth-child(6)>.inner {
+    background-image: url(./../resource/images/Git-logo.png);
+    background-size: 90%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+main>.lower>.stackBox>.outter:nth-child(7)>.inner {
+    background-image: url(./../resource/images/Python-logo.png);
+    background-size: 85%;
+    background-position: center 5px;
+    background-repeat: no-repeat;
+}
+
+
+/* footer */
+
+footer {
+    position: absolute;
+    left: 110px;
+    top: 1000px; /*if increasing main height */
+    width: 850px;
+    height: 180px; 
+    background-color: rgba(217, 255, 81, 0.2);
+    border-radius: 15px;
+    /* border: 1px solid #000; */
+}
+
+footer > .contact {
+    padding: 20px;
+    text-align: center;
+}
+
+footer > .contact > h3{
+    color:#fff;
+    font-size: 28px; 
+}
+
+footer > .shortCut {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    height: 80px;
+    margin: 0 auto;
+    position: initial;
+}
+
+footer>.shortCut > ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 80px;
+    text-align: center;
+    /* border: 1px solid #000; */
+}
+
+footer > .shortCut > ul > li > a > span {
+    display: block;
+    border-radius: 50%;
+}
+
+
+
+footer > .shortCut> ul > li > a > span > img {
+    display: block;
+    width: 76px;
+    height: 76px;
+    background-size: cover;
+    background-position: 0 0;
+    border-radius: 50%;
+    content: ' ';
+}
+
+footer > .shortCut > ul > li > a > span > img:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 8px rgba(40, 40, 40, 0.7),
+                -2px -2px 8px rgba(40, 40, 40, 0.7);
+}
+
+
+footer > .shortCut > ul > li:nth-child(1) > a > span > img {
+    background-image: url(./../resource/images/github.png);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+footer > .shortCut > ul > li:nth-child(2) > a > span > img {
+    background-image: url(./../resource/images/velog_logo.png);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+footer > .shortCut > ul > li:nth-child(3) > a > span > img {
+    background-image: url(./../resource/images/notion_logo.webp);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+footer > .shortCut > ul > li:nth-child(4) > a > span > img {
+    background-image: url(./../resource/images/wanted.jpg);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+footer > .shortCut > ul > li:nth-child(5) > a > span > img {
+    background-image: url(./../resource/images/mail_logo.webp);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

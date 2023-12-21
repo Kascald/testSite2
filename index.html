@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>prSite</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $("#toTop").click(function(){
+            $('html, body').animate({scrollTop:0}, 200);
+        });
+    
+        $("#toBot").click(function(){
+            $('html, body').animate({scrollTop:($(".bottom").offset().top)}, 200);
+        }); 
+    </script>
+
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1 class="text-center">make web</h1>
+            <div class="sideNav">
+                <ul class="gnb">
+                    <li class="btn"><a id ="toTop" href="#"> </a></li>
+                    <li class="btn"><a id ="home" href="#"></a></li>
+                    <li class="btn"><a id ="toBot"href="#"></a></li>
+                    
+
+                </ul>
+            </div>
+
+            
+
+            <div class="Hframe"></div>
+
+        </header>
+
+        <main>
+            <section class="upper"></section>
+
+
+
+            <section class="mid">
+                <h2>up1 box</h2>
+                <p></p>
+
+            </section>
+
+            <section class="mid">
+                <h2> up2 box</h2>
+
+            </section>
+
+            <section class="lower">z
+                <h2>stack</h2>
+                <p>기술내용 서술</p>
+                <div class="stackBox">
+                    <div class="outter"><div class="inner"></div></div>
+                    <div class="outter"><div class="inner"></div></div>
+                    <div class="outter"><div class="inner"></div></div>
+                    <div class="outter"><div class="inner"></div></div>
+                    <div class="outter"><div class="inner"></div></div>
+                    <div class="outter"><div class="inner"></div></div>
+                    <div class="outter"><div class="inner"></div></div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <address class="contact"><h3>about me</h3></address>
+            <div class="shortCut">
+                <ul>
+                    <li><a href="https://github.com/"><span><img></span></a></li>
+                    <li><a href="https://velog.io/"><span><img></span></a></li>
+                    <li><a href="https://www.notion.so/ko-kr"><span><img></span></a></li>
+                    <li><a href="https://www.wanted.co.kr/"><span><img></span></a></li>
+                    <li><a href="mailto:####@naver.com"><span><img></span></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <div class="bottom"></div>
+</body>
+</html>
