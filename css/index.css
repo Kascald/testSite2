@@ -20,7 +20,7 @@ header {
     left: 110px;
     width: 850px;
     height: 200px;
-    background-image:(url(./images/night_codework.jpg));
+    background-image:(url(./../images/night_codework.jpg));
     background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
