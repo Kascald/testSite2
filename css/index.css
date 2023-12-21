@@ -20,7 +20,7 @@ header {
     left: 110px;
     width: 850px;
     height: 200px;
-    background-image: url(./../resource/images/nigth_codework.jpg);
+    background-image:/images/nigth_codework.jpg);
     background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ header>.sideNav>.gnb>.btn > a {
 
 header>.sideNav>.gnb>.btn:nth-child(1) {
     margin-top: -380px;
-    background-image: url(./../resource/images/up_down_btn.png);
+    background-image: url(./../images/up_down_btn.png);
     background-position: center 5px;
     background-size: 160%;
     background-repeat: no-repeat;
@@ -90,7 +90,7 @@ header>.sideNav>.gnb>.btn:nth-child(1) {
 
 header>.sideNav>.gnb>.btn:nth-child(2) {
     margin-top: -240px;
-    background-image: url(./../resource/images/home_btn.png);
+    background-image: url(./../images/home_btn.png);
     background-position: center 5px;
     background-size: 85%;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@ header>.sideNav>.gnb>.btn:nth-child(2) {
 
 header>.sideNav>.gnb>.btn:nth-child(3) {
     margin-top:  -100px;
-    background-image: url(./../resource/images/up_down_btn.png);
+    background-image: url(./../images/up_down_btn.png);
     background-position: center -45px;
     background-size: 160%;
     background-repeat: no-repeat;
@@ -175,7 +175,7 @@ main > .upper {
 
 main > .mid {
     height: 300px;
-    background-image: url(./../resource/images/notepad1.png);
+    background-image: url(./../images/notepad1.png);
     background-position: center center;
     background-size: 105%;
     background-repeat: no-repeat;
@@ -241,49 +241,49 @@ main>.lower>.stackBox>.outter:hover::after {
 }
 
 main>.lower>.stackBox>.outter:nth-child(1)>.inner {
-    background-image: url(./../resource/images/Java_Logo.png);
+    background-image: url(./../images/Java_Logo.png);
     background-size: 90%;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 main>.lower>.stackBox>.outter:nth-child(2)>.inner {
-    background-image: url(./../resource/images/HTML.png);
+    background-image: url(./../images/HTML.png);
     background-size: 90%;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 main>.lower>.stackBox>.outter:nth-child(3)>.inner {
-    background-image: url(./../resource/images/CSS3_logo.png);
+    background-image: url(./../images/CSS3_logo.png);
     background-size: 90%;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 main>.lower>.stackBox>.outter:nth-child(4)>.inner {
-    background-image: url(./../resource/images/javascript.png);
+    background-image: url(./../images/javascript.png);
     background-size: 95%;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 main>.lower>.stackBox>.outter:nth-child(5)>.inner {
-    background-image: url(./../resource/images/Spring_Boot.png);
+    background-image: url(./../images/Spring_Boot.png);
     background-size: 85%;
     background-position: center 5px;
     background-repeat: no-repeat;
 }
 
 main>.lower>.stackBox>.outter:nth-child(6)>.inner {
-    background-image: url(./../resource/images/Git-logo.png);
+    background-image: url(./../images/Git-logo.png);
     background-size: 90%;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 main>.lower>.stackBox>.outter:nth-child(7)>.inner {
-    background-image: url(./../resource/images/Python-logo.png);
+    background-image: url(./../images/Python-logo.png);
     background-size: 85%;
     background-position: center 5px;
     background-repeat: no-repeat;
@@ -356,35 +356,35 @@ footer > .shortCut > ul > li > a > span > img:hover {
 
 
 footer > .shortCut > ul > li:nth-child(1) > a > span > img {
-    background-image: url(./../resource/images/github.png);
+    background-image: url(./../images/github.png);
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 footer > .shortCut > ul > li:nth-child(2) > a > span > img {
-    background-image: url(./../resource/images/velog_logo.png);
+    background-image: url(./../images/velog_logo.png);
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 footer > .shortCut > ul > li:nth-child(3) > a > span > img {
-    background-image: url(./../resource/images/notion_logo.webp);
+    background-image: url(./../images/notion_logo.webp);
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 footer > .shortCut > ul > li:nth-child(4) > a > span > img {
-    background-image: url(./../resource/images/wanted.jpg);
+    background-image: url(./../images/wanted.jpg);
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 footer > .shortCut > ul > li:nth-child(5) > a > span > img {
-    background-image: url(./../resource/images/mail_logo.webp);
+    background-image: url(./../images/mail_logo.webp);
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
